@@ -9,7 +9,7 @@ class CardsScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Cards screen"),
       ),
-      body: Placeholder(),
+      body: const Placeholder(),
     );
   }
 }

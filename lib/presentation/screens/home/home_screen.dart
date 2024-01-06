@@ -8,10 +8,10 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Flutter + material 3"),
+        title: const Text("Flutter + material 3"),
         centerTitle: false,
       ),
-      body: _HomeView(),
+      body: const _HomeView(),
     );
   }
 }
@@ -35,7 +35,6 @@ class _HomeView extends StatelessWidget {
 
 class _CustomListTile extends StatelessWidget {
   const _CustomListTile({
-    super.key,
     required this.menuItem,
   });
 

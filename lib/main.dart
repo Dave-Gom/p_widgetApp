@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: AppTheme(selectedColor: 4).getTheme(),
-      home: HomeScreen(),
+      home: const HomeScreen(),
       routes: {
         '/buttons': (context) => const ButtonsScreen(),
         '/cards': (context) => const CardsScreen(),
