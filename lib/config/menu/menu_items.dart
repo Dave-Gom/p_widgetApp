@@ -23,5 +23,10 @@ const appMenuITems = <MenuItem>[
       title: "Tarjetas",
       subtitle: "Un constructor estilizado",
       link: "/cards",
-      icon: Icons.credit_card)
+      icon: Icons.credit_card),
+  MenuItem(
+      title: "Progress indicartos",
+      subtitle: "Generales y controlados",
+      link: "/progress",
+      icon: Icons.refresh_rounded)
 ];
