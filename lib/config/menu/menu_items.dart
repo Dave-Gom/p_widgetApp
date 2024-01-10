@@ -38,5 +38,10 @@ const appMenuITems = <MenuItem>[
       title: "Animated continer",
       subtitle: "Statefull widget animado",
       link: "/animated",
-      icon: Icons.check_box_outlined)
+      icon: Icons.check_box_outlined),
+  MenuItem(
+      title: "UI controls",
+      subtitle: "Statefull widget animado",
+      link: "/ui-controls",
+      icon: Icons.car_rental_outlined)
 ];
