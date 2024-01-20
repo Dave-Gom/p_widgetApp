@@ -43,5 +43,10 @@ const appMenuITems = <MenuItem>[
       title: "UI controls",
       subtitle: "Statefull widget animado",
       link: "/ui-controls",
-      icon: Icons.car_rental_outlined)
+      icon: Icons.car_rental_outlined),
+  MenuItem(
+      title: "introducciona a la app",
+      subtitle: "mi onboarding",
+      link: "/tutorial",
+      icon: Icons.accessible_rounded)
 ];
