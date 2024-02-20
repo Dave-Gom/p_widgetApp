@@ -15,13 +15,15 @@ class AppTheme {
   final int selectedColor;
   final bool isDarkMode;
 
-  AppTheme({required this.isDarkMode, required this.selectedColor})
-      : assert(selectedColor >= 0 || selectedColor < colorList.length,
-            "Color fuera de rango");
+  AppTheme({this.isDarkMode = false, this.selectedColor = 0});
 
   ThemeData getTheme() => ThemeData(
       brightness: isDarkMode ? Brightness.dark : Brightness.light,
       useMaterial3: true,
       colorSchemeSeed: colorList[selectedColor],
       appBarTheme: const AppBarTheme(centerTitle: false));
+
+  AppTheme copyWidth({int? selectedColor, bool? isDarkMode}) => AppTheme(
+      selectedColor: selectedColor ?? this.selectedColor,
+      isDarkMode: isDarkMode ?? this.isDarkMode);
 }
