@@ -48,5 +48,10 @@ const appMenuITems = <MenuItem>[
       title: "introducciona a la app",
       subtitle: "mi onboarding",
       link: "/tutorial",
-      icon: Icons.accessible_rounded)
+      icon: Icons.accessible_rounded),
+  MenuItem(
+      title: "Infinite sroll",
+      subtitle: "Listas infinitas y pull to refresh",
+      link: "/infinity",
+      icon: Icons.list_alt_rounded)
 ];
